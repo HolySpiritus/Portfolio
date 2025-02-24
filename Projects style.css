@@ -210,6 +210,40 @@ nav ul li a:hover::after{
      border-radius: 5px; 
      cursor: pointer;
  }
+ /*Colleagues*/
+ .above-img-text-colleagues{
+    display: flex;
+    justify-content: center;
+     text-decoration: underline;
+     color: #AA336A;
+     
+ }
+ .lets-talk-colleagues{
+    display: flex;
+    justify-content: center;
+    color: #AA336A;
+    text-decoration: underline;
+    padding-right: 2%
+}
+.container{
+    padding: 10px 10%;
+}
+.paragraph-colleagues{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.centered-button-colleagues{
+    display: block;
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    background-color: #AA336A; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
 /*footer*/
 /*footer*/
 footer{
