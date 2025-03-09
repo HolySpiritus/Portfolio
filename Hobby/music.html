@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="music.css">
+    <script src="https://kit.fontawesome.com/dfe9ed219a.js" crossorigin="anonymous"></script>
+    <script src="music.js" defer></script>
+</head>
+<body>
+<!--Nav-->
+<nav>
+    <img src="/Images/Logo (2).png" class="logo">
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Games.html">Gaming</a></li>
+        <li><a href="poetry.html">Poetry</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+</nav>
+<div class="background-image">
+</div>
+<div class="container-big"></div>
+<div class="music-introduction">
+<h1>Music its so astonishing</h1>
+<br>
+<p>Like anyone else I find myself in the peaceful waves of music which makes me feel happy. By scrolling down you will hear some of my favorite songs and artists.</p>
+</div>
+<div class="container-big"></div>
+<div class="container">
+    <div class="music-player">
+       <nav class="nav2">
+        <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+       </nav class="nav2">
+       <img src="/Images/music-player-img.jpg" alt="music-player-img" class="song-img">
+       <h1 id="song-title">back 2 me! x edm (Slowed)</h1>
+       <P id="song-artist">Angst!</P>
+
+      <audio id="audio-player">
+        <source src="/Images/back 2 me! x edm (Slowed).mp3" type="audio/mpeg">
+      </audio>
+      <input type="range" value="0" id="progress">
+
+      <div class="controls">
+        <div onclick="prevSong()"><i class="fa-solid fa-backward"></i></div>
+        <div onclick="playPause()">
+            <i class="fa-solid fa-play" id="ctrlIcon"></i>
+        </div>    
+        <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>
+      </div>
+
+      <div class="song-list">
+        <ul id="song-list">
+            <li onclick="selectSong(0)" class="active">back 2 me! x edm (Slowed) - Angst!</li>
+            <li onclick="selectSong(1)">KEEP UP - ODETARI</li>
+            <li onclick="selectSong(2)">Chicago - Michael Jackson</li>
+            <li onclick="selectSong(3)">Music sounds better with you - Stardust</li>
+        </ul>
+      </div>
+    </div>
+</div>
+<br>
+<!--footer-->
+<footer>
+    <div class="footer-nav">
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Games.html">Gaming</a></li>
+          <li><a href="poetry.html">Poetry</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+        <br>
+        <h1 style="color: #fff;">© 2025 Made by Sniper all rights reserved </h1>
+        </div>
+        <div class="footer-bottom">
+        <a href="https://youtu.be/qNDCh2rlry8" target="_blank">Domain Expansion</a>
+        </div>
+        </div>
+  </footer>
+</body>
+</html>

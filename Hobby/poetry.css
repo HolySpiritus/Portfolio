@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #493f48;
+}
+/*Nav*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #634d4a;
+}
+.logo{
+    width: 100px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #9c8399;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+/*containe*/
+.container{
+    padding: 10px 10%;
+}
+.container-big{
+    padding: 60px 10%;
+}
+.container-home{
+    padding: 10px 10%;
+}
+/*background sewer*/
+.background-image {
+    background-image: url(/Images/ghost-background2.gif);
+    background-size: cover; /* Make sure the background covers the whole div */
+    background-position: center; /* Center the background image */
+    height: 545px; /* Adjust the height as needed */
+    width: 100%; /* Make sure it takes up the full width */
+    position: relative; /* Ensure it stays in place */
+}
+.poets-introduction{
+ color: #fff;
+}
+.poets-introduction h1{
+    display: flex;
+    justify-content: center;
+}
+.poets-introduction p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.favorite-poems-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.favorite-poems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.poem {
+    text-align: center;
+    background-color: #634d4a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(27, 26, 26, 0.22);
+}
+
+.poem h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.poem p {
+    color: #fff;
+}
+/*--------------footer-------*/
+footer{
+    background-color: #634d4a;
+}
+footer h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+   width: 100%;
+   padding: 70px 30px 20px; 
+}
+.footer-nav{
+    margin: 30px 0;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.footer-bottom{
+ padding: 20px;
+ justify-content: center;
+}
+.footer-bottom a{
+    color: #634d4a;
+}
+
+@media (max-width: 1200px) {
+
+} 

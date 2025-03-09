@@ -244,6 +244,40 @@ nav ul li a:hover::after{
     border-radius: 5px; 
     cursor: pointer;
 }
+/*Colleagues*/
+.above-img-text-hobby{
+    display: flex;
+    justify-content: center;
+     text-decoration: underline;
+     color: #817480;
+     
+ }
+ .lets-talk-hobby{
+    display: flex;
+    justify-content: center;
+    color: #817480;
+    text-decoration: underline;
+    padding-right: 2%
+}
+.container{
+    padding: 10px 10%;
+}
+.paragraph-hobby{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.centered-button-hobby{
+    display: block;
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    background-color: #817480; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
 /*footer*/
 /*footer*/
 footer{
