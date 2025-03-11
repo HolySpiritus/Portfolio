@@ -225,8 +225,59 @@ footer h1{
     color: #634d4a;
 }
 
-@media (max-width: 1200px) {
+/* ...existing code... */
+
+/* Media query for desktop screens */
+@media (min-width: 1200px) {
+    .container {
+        padding: 20px 15%;
+    }
+
+    .container-big {
+        padding: 80px 15%;
+    }
+
+    .container-home {
+        padding: 20px 15%;
+    }
+
+    .home-image {
+        flex-basis: 30%;
+    }
+
+    .home-image img {
+        width: 60%;
+        height: auto;
+    }
+
+    .img-text {
+        width: 65%;
+    }
+
+    .img-text h1 {
+        font-size: 35px;
+    }
+
+    .img-text p {
+        font-size: 25px;
+    }
+
+    .card-container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
     .card {
-        width: 45%;
+        width: 22%;
+    }
+
+    .card h4 {
+        font-size: 25px;
+    }
+
+    .card p {
+        font-size: 20px;
     }
 }
+
+/* ...existing code... */
